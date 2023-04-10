@@ -1,0 +1,30 @@
+a="Happy Bdy"
+puts a
+o/p
+Happy
+
+puts a.upcase()
+//prints in uppercase
+
+puts a.downcase()
+//prints in lowercase
+
+puts a.length()
+//prints the size
+
+puts a.include? "Bdy"
+//returns true if present in a
+
+puts a[0]
+//prints 1st char of a
+
+puts a[0,3]
+//prints from 0th index to 2nd 
+
+puts a.index("H")
+//returns the index of the char - here 0
+
+We can also use it for strings directly:
+puts "Heyy".upcase()
+
+
