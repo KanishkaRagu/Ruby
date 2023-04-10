@@ -1,0 +1,9 @@
+1) strings
+a="sam"
+2)int
+a=34
+3)float
+a=2.4
+4)bool
+a=true
+5)a=nil
