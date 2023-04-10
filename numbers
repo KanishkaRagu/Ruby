@@ -1,0 +1,29 @@
+num=20
+puts ("Num is "+num)
+//here num is int which is attched to string 
+so we have to convert it to string
+so 
+puts ("Num is "+num.to_s)
+o/p
+Num is 20
+
+
+num=-20
+num.abs()
+o/p
+20
+
+num.round()
+//rounds the num
+
+puts 1.0+7
+o/p
+8.0
+
+puts 10/7
+o/p
+1
+
+puts 10/7.0
+o/p
+1.37
