@@ -1,0 +1,16 @@
+print "Hello World"
+puts "Hello World"
+
+//both displays the o/p
+
+but puts displays with\n along with it
+
+eg:
+
+puts "Hello World"
+print "Hello World"
+print "Hello World"
+
+o/p:
+Hello World
+Hello WorldHello World
