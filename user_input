@@ -1,0 +1,31 @@
+puts "enter name"
+n=gets
+puts ("Hii" + n)
+
+puts "enter name"
+n=gets.chomp()
+//chomp gets rid of thr new line
+
+Calculator program
+puts "enter a num"
+num1=gets.chomp()
+puts "enter a num2"
+num2=gets.chomp()
+puts (num1+num2)
+
+o/p
+enter a num
+5
+enter a num
+2
+52
+
+But we want 7 
+So,
+puts (num1.to_i + num2.to_i)
+
+o/p
+7
+
+if we want float 
+puts (num1.to_f + num2.to_f)
