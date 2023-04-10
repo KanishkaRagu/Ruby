@@ -1,0 +1,5 @@
+puts "Roses are {color}"
+
+puts "enter color"
+color=gets.chomp()
+puts ("Roses are + color")
