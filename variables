@@ -1,0 +1,6 @@
+eg:
+a="John"
+puts ("I like "+a)
+
+o/p
+I like John
