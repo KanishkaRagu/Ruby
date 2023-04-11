@@ -1,0 +1,18 @@
+def cube(num)
+  return num*num*num,70
+end
+cube(3)
+o/p
+27 70
+
+//return statement is considered as the last statement
+def cube(num)
+  return num*num*num,70
+  puts "hi"
+end
+cube(3)
+o/p
+27 70
+
+
+
