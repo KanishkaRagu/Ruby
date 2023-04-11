@@ -1,1 +1,41 @@
-hkj
+//similar to dict
+key value pairs
+
+states={
+"tamilnadu"=>"tn"
+"punjab"=>"pb"
+}
+//access threw keys
+
+functions:
+
+def sayhi
+  puts "Hello"
+end
+sayhi
+o/p:
+Hello
+
+//with parameters
+def sayhi(name)
+  puts ("Hello "+name)
+end
+sayhi("Mike")
+o/p
+Hello Mike
+
+//with 2 parameters
+def sayhi(name,age)
+  puts ("Hello "+name + " "+age)
+end
+sayhi("Mike",75)
+o/p
+Hello Mike 75
+
+//with default parameters
+def sayhi(name="noo name",age=9)
+  puts ("Hello "+name + " "+age)
+end
+sayhi("Mike")
+o/p
+Hello Mike 9
