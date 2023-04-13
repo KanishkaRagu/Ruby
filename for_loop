@@ -1,0 +1,17 @@
+//iteration / traversal of loop
+
+friends=["a","d","e","j"]
+
+for e in friends
+    puts e
+end
+friends.each do |friend|
+    puts friend
+end   
+ for i in 0..5
+    puts i
+end   
+//similar to above
+6.each do |i|
+    puts i
+ end 
